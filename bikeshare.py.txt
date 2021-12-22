@@ -82,6 +82,7 @@ def time_stats(df):
     common_hour = df['hour'].mode()[0]
     print('Best Performing Hour:', common_hour)
     
+    print("\nThis took %s seconds." % (time.time() - start_time))
     print('_'*60)
 
 def station_stats(df):
@@ -101,7 +102,8 @@ def station_stats(df):
     # TO DO: display most frequent combination of start station and end station trip
     Stations = df.groupby(['Start Station', 'End Station']).count()
     print('Most Common Routes Used:', Departure_Station, " & ", Destination_Station)
-    
+   
+    print("\nThis took %s seconds." % (time.time() - start_time)) 
     print('_'*60)
 
 def trip_duration_stats(df):
@@ -118,6 +120,7 @@ def trip_duration_stats(df):
     Mean_Travel_Time = df['Trip Duration'].mean()
     print('Average travel time:', Mean_Travel_Time/60, " Minutes")
 
+    print("\nThis took %s seconds." % (time.time() - start_time))
     print('_'*60)
 
 def user_stats(df):
@@ -147,7 +150,8 @@ def user_stats(df):
         print('Most_common_birth year:', Most_common_birth_year)
     except KeyError:
         print("First rider/ youngest rider and/or most common birth year: No user statistics available for this selection.")
-        
+     
+    print("\nThis took %s seconds." % (time.time() - start_time))   
     print('_'*60)
     
 def raw_data(df):
@@ -160,7 +164,7 @@ def raw_data(df):
         ask=input('would you like the following 5rows? \n[yes][no]')
         if ask.lower()=='no':
             break
-                
+    print("\nThis took %s seconds." % (time.time() - start_time))            
     print('_'*60)
     
 def main():

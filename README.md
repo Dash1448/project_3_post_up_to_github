@@ -16,6 +16,14 @@ newyorkcity.csv
 chicago.csv
 
 ### Credits
+<<<<<<< HEAD
 Pandas documentation. https://pandas.pydata.org/docs/
 Python controlflow. https://docs.python.org/3/tutorial/controlflow.html
 Python tutorial. https://www.w3schools.com/python/
+
+
+=======
+Git documentation is very usefull. https://git-scm.com/doc
+Refactoring importance. https://pybit.es/articles/refactoring/
+
+>>>>>>> refactoring
