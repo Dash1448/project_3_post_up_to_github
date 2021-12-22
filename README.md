@@ -15,4 +15,5 @@ Git Commands Documentation.pdf
 
 ### Credits
 Git documentation is very usefull. https://git-scm.com/doc
+Refactoring importance. https://pybit.es/articles/refactoring/
 
