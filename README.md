@@ -4,7 +4,8 @@
 2021/12/14.
 
 ### Project Title
-Project 2 Explore US Bikeshare Data.
+Project 2 - Udacity.
+Explore US Bikeshare Data.
 
 ### Description
 In this project python was used to explore data in Chicago, Washington and New York City in relation to bike share systems. Code was writen to import data and answer a series of questions while providing access to raw data in an interactive manner.
